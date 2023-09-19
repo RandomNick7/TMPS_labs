@@ -12,8 +12,9 @@ public:
 
 	void printVal(float val[], int size){
 		for(int i=0; i<size; i++){
-			std::cout << val[i] << std::endl;
+			std::cout << val[i] << ' ';
 		}
+		std::cout << std::endl;
 	}
 };
 
